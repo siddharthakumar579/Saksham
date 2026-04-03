@@ -47,6 +47,8 @@ const translations = {
     cta_p: "Every Indian citizen deserves access to justice. Start your journey today — it's free.",
     cta_btn: "Know Your Rights →",
   },
+  
+  //hindi
   hi: {
     tagline: "हर नागरिक को सशक्त बनाना",
     nav_rights: "आपके अधिकार",
