@@ -1,5 +1,6 @@
 :root {
-    --saffron: #FF6B00;
+    --saffron: #13664ccb;
+    /* --saffron: linear-gradient(135deg, #1e3c72, #2a5298); */
     --saffron-light: #FF8C3A;
     --green: #138808;
     --green-light: #1AAB0A;
@@ -17,7 +18,8 @@
     --text: #E8E6E0;
     --muted: #8B95A8;
     --border: #1E2A38;
-    --navy: #C9D4E0;
+    /* --navy: #0b2847; */
+    --navy: linear-gradient(135deg, #231561, #225f2a);
   }
 
   body.dark nav {
@@ -276,6 +278,7 @@
     text-decoration: none; display: inline-block;
     border: 2px solid var(--border);
     transition: border-color 0.2s, color 0.2s;
+    cursor: pointer;
   }
   .btn-secondary:hover { border-color: var(--navy); }
 
@@ -366,7 +369,11 @@
     font-size: 2.5rem; font-weight: 900;
     color: var(--saffron);
   }
-  .stat-label { color: rgba(255,255,255,0.6); font-size: 0.85rem; margin-top: 4px; }
+  .stat-label { 
+    color: rgba(255,255,255,0.6);
+    font-size: 0.85rem; 
+    margin-top: 4px; 
+  }
 
   /* ── RIGHTS ── */
   .section {
