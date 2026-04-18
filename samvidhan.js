@@ -234,7 +234,7 @@ document.addEventListener('click', e => {
   if (!e.target.closest('.lang-switcher')) closeLangMenu();
 });
 
-
+//
 // ── DARK MODE ──
 function toggleDark() {
   const toggle = document.getElementById('darkToggle');
