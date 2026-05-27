@@ -403,6 +403,7 @@
   /* Rights grid */
   .rights-grid {
     display: grid;
+    /* display:flex; */
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
   }
